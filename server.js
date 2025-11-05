@@ -24,63 +24,69 @@ if (MONGO_URI) {
 const mockDustbins = [
   {
     name: "Vanaz Metro Bin",
-    location: { type: "Point", coordinates: [73.805251, 18.507112] },
-    image: "https://i.imgur.com/3v0Qdty.jpg",
-    mapLink: "https://www.google.com/maps/place/Vanaz/@18.507112,73.805251"
+    location: { type: "Point", coordinates: [73.8026708, 18.5071294] },
+    image: "https://postimg.cc/dkygqgBr",
+    mapLink: "https://www.google.com/maps/place/Vanaz+Metro+Station/@18.5071294,73.8026708,17z/"
   },
   {
-    name: "FC Road Bin",
+    name: "Shivajinagar Metro Bin",
+    location: { type: "Point", coordinates: [73.8473869, 18.532233] },
+    image: "https://postimg.cc/dkygqgBr",
+    mapLink: "https://www.google.com/maps/place/Shivajinagar+Metro+Station/@18.532233,73.8473869,17z/"
+  },
+  {
+    name: "Chhatrapati Sambhaji Udyan Metro Bin",
     location: { type: "Point", coordinates: [73.8403732, 18.5240265] },
-    image: "https://i.imgur.com/hSu3ztP.jpg",
+    image: "https://postimg.cc/dkygqgBr",
     mapLink: "https://www.google.com/maps/@18.5240265,73.8403732,19.2z"
   },
   {
     name: "JM Road Bin",
-    location: { type: "Point", coordinates: [73.8466613, 18.5211987] },
-    image: "https://i.imgur.com/ffskl5b.jpg",
-    mapLink: "https://www.google.com/maps/@18.5211987,73.8466613,21z"
+    location: { type: "Point", coordinates: [73.8464401, 18.5209196] },
+    image: "https://postimg.cc/dkygqgBr",
+    mapLink: "https://www.google.com/maps/place/Shivaji+Nagar/@18.5209196,73.8464401,20.03z/"
   },
   {
     name: "Pashan Lake Bin",
-    location: { type: "Point", coordinates: [73.7800778, 18.5322] },
-    image: "https://i.imgur.com/dgH8IGF.jpg",
-    mapLink: "https://www.google.com/maps/@18.5322,73.7800778,19.69z"
+    location: { type: "Point", coordinates: [73.779621, 18.532168] },
+    image: "https://postimg.cc/dkygqgBr",
+    mapLink: "https://www.google.com/maps/place/Shiv+Mandir,+Pashan+Lake/@18.532168,73.779621,18.87z/"
   },
   {
-    name: "Misc Bin 1",
+    name: "Miscellaneous Bin",
     location: { type: "Point", coordinates: [73.8455069, 18.5263112] },
-    image: "https://i.imgur.com/rF9g8G2.jpg",
-    mapLink: "https://www.google.com/maps/@18.5263112,73.8455069,20.4z"
+    image: "https://postimg.cc/dkygqgBr",
+    mapLink: "https://www.google.com/maps/place/Cafe+89/@18.5263865,73.8456263,21z"
   },
   {
-    name: "Misc Bin 2",
+    name: "Miscellaneous Bin",
     location: { type: "Point", coordinates: [73.7957131, 18.5009018] },
-    image: "https://i.imgur.com/jfDLmvx.jpg",
-    mapLink: "https://www.google.com/maps/@18.5009018,73.7957131,21z"
+    image: "https://postimg.cc/dkygqgBr",
+    mapLink: "https://www.google.com/maps/place/Whole+Mart/@18.5009018,73.7957131,21z/"
   },
   {
-    name: "Dominos Near Bin",
+    name: "Dominos Kothrud",
     location: { type: "Point", coordinates: [73.7959325, 18.5017198] },
-    image: "https://i.imgur.com/MrDFZGo.jpg",
-    mapLink: "https://www.google.com/maps/@18.5017198,73.7959325,20.13z"
+    image: "https://postimg.cc/dkygqgBr",
+    mapLink: "https://www.google.com/maps/place/Domino's+Pizza+%7C+Sarthi+Shilp+Society,+Pune/@18.5015992,73.7953275,19.13z"
   },
   {
     name: "Karve Nagar Bin",
-    location: { type: "Point", coordinates: [73.8305, 18.4962] },
-    image: "https://i.imgur.com/FXKfZqK.jpg",
-    mapLink: "https://www.google.com/maps/@18.4962,73.8305,18z"
+    location: { type: "Point", coordinates: [73.8131379, 18.4884785] },
+    image: "https://postimg.cc/dkygqgBr",
+    mapLink: "https://www.google.com/maps/place/D-Mart,+Karve+Nagar/@18.4850377,73.8019432,14z/"
   },
   {
-    name: "Erandwane Bin",
-    location: { type: "Point", coordinates: [73.8341, 18.5054] },
-    image: "https://i.imgur.com/tnySgkB.jpg",
-    mapLink: "https://www.google.com/maps/@18.5054,73.8341,18z"
+    name: "Nalstop Metro Bin",
+    location: { type: "Point", coordinates: [73.8260992, 18.5073417] },
+    image: "https://postimg.cc/dkygqgBr",
+    mapLink: "https://www.google.com/maps/place/Nal+Stop+Metro+Station/@18.5073417,73.8260992,17z/"
   },
   {
     name: "Kothrud Depot Bin",
-    location: { type: "Point", coordinates: [73.8145, 18.5099] },
-    image: "https://i.imgur.com/Yv3AJiI.jpg",
-    mapLink: "https://www.google.com/maps/@18.5099,73.8145,18z"
+    location: { type: "Point", coordinates: [73.7968413, 18.5063462] },
+    image: "https://postimg.cc/dkygqgBr",
+    mapLink: "https://www.google.com/maps/place/Kothrud+Bus+Depot/@18.5063462,73.7968413,17.05z/"
   }
 ];
 
